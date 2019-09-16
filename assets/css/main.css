@@ -1973,7 +1973,13 @@ input, select, textarea {
 				transform: translateZ(0);
 				opacity: 1.0;
 				margin: 0;
-				color: yellow;
+				/*color: yellow;*/
+			}
+			.main.style1 p {
+				/*color:red;*/
+				display: inline;
+				background-color: #FFF;
+				color: #39454b;
 			}
 
 			.main.style1.inactive > .content {
